@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>new year countdown</title>
+    <!-- custom style -->
+    <link rel="shortcut icon" href="stars.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="overlay">
+        <div class="title">New Year Coming Soon</div>
+        <div class="title" id="end-date">1st January 2025 00:00</div>
+        <br />
+        <div class="col">
+          <div>
+            <input type="text" readonly value="0" />
+            <br />
+            <label for="">Days</label>
+          </div>
+          <div>
+            <input type="text" readonly value="0" />
+            <br />
+            <label for="">Hours</label>
+          </div>
+          <div>
+            <input type="text" readonly value="0" />
+            <br />
+            <label for="">Minutes</label>
+          </div>
+          <div>
+            <input type="text" readonly value="0" />
+            <br />
+            <label for="">Seconds</label>
+          </div>
+        </div>
+        <br />
+        <!-- Loading -->
+        <div class="hourglassBackground">
+          <div class="hourglassContainer">
+            <div class="hourglassCurves"></div>
+            <div class="hourglassCapTop"></div>
+            <div class="hourglassGlassTop"></div>
+            <div class="hourglassSand"></div>
+            <div class="hourglassSandStream"></div>
+            <div class="hourglassCapBottom"></div>
+            <div class="hourglassGlass"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
