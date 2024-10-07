@@ -3,10 +3,6 @@ const endDate = "1 January 2025 00:00 AM";
 document.getElementById("end-date").innerText = endDate;
 const inputs = document.querySelectorAll("input");
 
-// const clock = () => {
-
-// }
-
 function clock() {
   const end = new Date(endDate);
   const now = new Date();
