@@ -15,7 +15,7 @@ function clock() {
   // countdown over
   if (diff < 0) return;
 
-  // convert into days
+  // convert into days 
   inputs[0].value = Math.floor(diff / 3600 / 24);
   inputs[1].value = Math.floor(diff / 3600) % 24;
   inputs[2].value = Math.floor(diff / 60) % 60;
