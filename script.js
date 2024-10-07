@@ -32,5 +32,5 @@ clock();
 
 // function call in every sec
 setInterval(() => {
-  clock();
+  clock(); 
 });
